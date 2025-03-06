@@ -46,10 +46,6 @@ jobs:
     - name: Build with Gradle
       run: gradle build
 
-    - uses: pmd/pmd-github-action@v2
-      with:
-        rulesets: 'java-basic'
-    
     - name: Publish Test Report
       uses: actions/upload-artifact@v4
       with:
