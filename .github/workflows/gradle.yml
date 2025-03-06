@@ -48,7 +48,7 @@ jobs:
 
     - uses: pmd/pmd-github-action@v2
       with:
-        rulesets: 'ruleset.xml'
+        rulesets: 'java-basic'
     
     - name: Publish Test Report
       uses: actions/upload-artifact@v4
