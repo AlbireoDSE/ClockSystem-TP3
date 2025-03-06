@@ -20,7 +20,7 @@ jobs:
         
     - uses: pmd/pmd-github-action@v2
       with:
-        rulesets: 'ruleset/java/Quickstart.xml'
+        rulesets: 'ruleset/java/quickstart.xml'
     
     - name: Publish Test Report
       uses: actions/upload-artifact@v4
